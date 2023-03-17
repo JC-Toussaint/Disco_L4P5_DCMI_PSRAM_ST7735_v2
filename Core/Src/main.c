@@ -234,14 +234,11 @@ int main(void)
 	while(start_the_camera_capture == 0) {;}
 	printf("capture %lu\n", start_the_camera_capture);
 
-	uint16_t data[1];
-	for (uint16_t i=0; i<ST7735_WIDTH; i++){
-		for (uint16_t j=0; j<ST7735_HEIGHT; j++){
-			/*        FEDCBA9876543210 */
-			data[0]=0b1111100000000000;
-			uint16_t color565 = pBuffer[j*ST7735_WIDTH+i];
+	for (uint16_t i=0; i<CAMERA_WIDTH; i++){
+		for (uint16_t j=0; j<CAMERA_HEIGHT; j++){
+			uint16_t color565 = pBuffer[j*CAMERA_WIDTH+i];
 			//color565 = ((color565 & 0xFF00) >> 8) | ((color565 & 0xFF) << 8);
-			ST7735_DrawPixel(ST7735_WIDTH-1-i, j, color565);
+			ST7735_DrawPixel(i, j, color565);
 		}
 	}
 	HAL_Delay(15000);
