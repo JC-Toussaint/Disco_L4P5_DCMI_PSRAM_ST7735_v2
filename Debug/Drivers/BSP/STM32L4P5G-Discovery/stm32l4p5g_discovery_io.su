@@ -1,8 +1,0 @@
-../Drivers/BSP/STM32L4P5G-Discovery/stm32l4p5g_discovery_io.c:97:9:BSP_IO_Init	16	static
-../Drivers/BSP/STM32L4P5G-Discovery/stm32l4p5g_discovery_io.c:146:9:BSP_IO_DeInit	4	static
-../Drivers/BSP/STM32L4P5G-Discovery/stm32l4p5g_discovery_io.c:158:10:BSP_IO_ITGetStatus	16	static
-../Drivers/BSP/STM32L4P5G-Discovery/stm32l4p5g_discovery_io.c:170:6:BSP_IO_ITClear	16	static
-../Drivers/BSP/STM32L4P5G-Discovery/stm32l4p5g_discovery_io.c:190:9:BSP_IO_ConfigPin	16	static
-../Drivers/BSP/STM32L4P5G-Discovery/stm32l4p5g_discovery_io.c:205:6:BSP_IO_WritePin	16	static
-../Drivers/BSP/STM32L4P5G-Discovery/stm32l4p5g_discovery_io.c:217:10:BSP_IO_ReadPin	16	static
-../Drivers/BSP/STM32L4P5G-Discovery/stm32l4p5g_discovery_io.c:228:6:BSP_IO_TogglePin	16	static

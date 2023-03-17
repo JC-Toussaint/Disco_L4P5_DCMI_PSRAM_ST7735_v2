@@ -1,8 +1,0 @@
-stm32l4p5g_discovery_io.c:97:9:BSP_IO_Init	5
-stm32l4p5g_discovery_io.c:146:9:BSP_IO_DeInit	1
-stm32l4p5g_discovery_io.c:158:10:BSP_IO_ITGetStatus	1
-stm32l4p5g_discovery_io.c:170:6:BSP_IO_ITClear	1
-stm32l4p5g_discovery_io.c:190:9:BSP_IO_ConfigPin	1
-stm32l4p5g_discovery_io.c:205:6:BSP_IO_WritePin	1
-stm32l4p5g_discovery_io.c:217:10:BSP_IO_ReadPin	1
-stm32l4p5g_discovery_io.c:228:6:BSP_IO_TogglePin	2
